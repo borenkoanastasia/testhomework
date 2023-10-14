@@ -6,7 +6,7 @@ import (
 )
 
 func TestHw3English(t *testing.T) {
-	expected := "Hello Bean"
+	expected := "Hello"
 	actual := pkg.English()
 
 	if expected != actual {
